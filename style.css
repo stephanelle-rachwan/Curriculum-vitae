@@ -1,0 +1,50 @@
+body{
+  font-family: "Open Sans", sans-serif;
+  max-width: 80%;
+  margin: auto;
+}
+
+#title-name {
+  text-align: center;
+  border: 3px #888 solid;
+  background-color: #ddd;
+}
+
+#left-section {
+  max-width: 20%;
+  background-color: #37427e  ;
+  padding: 10px;
+  color: white;
+  float: left;
+}
+
+.email {
+  color: white;
+  text-decoration: none;
+}
+
+.email:hover {
+  color: #888;
+}
+
+#right-section {
+  max-width: 75%;
+  padding: 10px;
+  float: right;
+  background-color: #ddd;
+} 
+
+.profile-picture {
+  border-radius: 50%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
